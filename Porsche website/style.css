@@ -1,0 +1,592 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.logo1
+{
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+.set
+{
+    margin-left: 90%;
+}
+
+.openbox
+{
+    width: 85%;
+}
+.nav-link
+{
+    margin-top: 15px;
+}
+.tab-content
+{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    width: 98%;
+    height: 100vh;
+    background-color: #eee;
+    overflow-y: scroll;
+}
+.tab-pane
+{
+    margin-top: 60px;
+}
+.imageoff
+{
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    transition: all 0.7s;
+    margin-top: 25px;
+    
+}
+.imageoff:hover
+{
+    transform: scale(1.1);
+    background-color: #959899;
+    border-radius: 5px;
+}
+.mainclub
+{
+    list-style: none;
+}
+.subclub
+{
+    padding-top: 20px;
+}
+.subclub a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.subclub:hover a
+{
+    display: inline-block;
+    background-color: gainsboro;
+    border-radius: 5px;
+    color: #000;  
+}
+.subclub1
+{
+    padding-top: 35px;
+}
+.subclub1 a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    
+}
+.subclub1:hover a
+{
+    display: block;
+    background-color: gainsboro;
+    border-radius: 5px;
+    color: #000;  
+}
+.card1
+{
+    width: 90%;
+    margin: auto;
+}
+.cardi
+{
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 20px;
+}
+.cardicon
+{
+    position: absolute;
+    top: 75px;
+    right: 60px;
+    cursor: pointer;
+}
+.card2
+{
+    width: 90%;
+    margin: auto;
+}
+.card4
+{
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 20px;
+}
+.cardicon2
+{
+    position: absolute;
+    top: 195px;
+    left: 80px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 22px;
+}
+.cardi5
+{
+    position: absolute;
+    top: 198px;
+    left: 110px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 18px;
+}
+
+
+/* slider */
+.slideimg
+{
+    position: relative;
+    object-fit: cover;
+    height: 650px;
+    width: 100%;
+    
+}
+.details
+{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.light1
+{
+    font-size: 30px;
+    color: crimson;
+    padding-top: 5px;
+    
+}
+.come
+{
+    color: #fff;
+    cursor: pointer;
+}
+.come h2 
+{
+    font-size: 46px;
+}
+.come p
+{
+    font-size: 30px;
+}
+.come:hover
+{
+    color: crimson;
+}
+.carousel-control-prev
+{
+    margin-top: -20px;
+}
+.carousel-control-next
+{
+    margin-top: -20px;
+}
+/* grid module */
+/* .module
+{
+    margin-left: -15px;
+} */
+.module1
+{
+    position: relative;
+}
+.circularinfo
+{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #fff;
+}
+.circularinfo h2
+{
+    font-size: 40px;
+}
+.circularinfo p
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+.flexinfo
+{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}
+.symbol1
+{
+    font-size: 25px;
+    color: crimson;
+}
+.flexinfo h2
+{
+    color: #fff;
+    margin-top: 2px;
+}
+
+.button1
+{   
+    position: absolute;
+    top: 80%;
+    left: 25px;
+    height: 50px;
+    width: 180px;
+    border: 1px solid crimson;
+    background-color: #fff; 
+}
+.subbutton1
+{
+    height: 50px;
+    width: 180px;
+    border: 1px solid crimson;
+    background-color: #fff;
+    border-radius: 8px; 
+}
+.subbutton1:hover
+{
+    background-color: crimson;
+}
+.subbutton1:hover i
+{
+    color: #fff;
+}
+.subbutton1:hover span 
+{
+    color: #fff;
+}
+.button2
+{   
+    position: absolute;
+    top: 80%;
+    left: 230px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #fff;
+    
+}
+.symbol2
+{
+    color: #fff;
+    font-size: 20px;
+}
+.subbutton2
+{
+    height: 50px;
+    width: 150px;
+    border: 1px solid crimson;
+    background-color: #fff;
+    border-radius: 8px; 
+}
+.subbutton2 span
+{
+    color: #fff;
+    font-weight: 700;
+}
+.subbutton2:hover i
+{
+    color: crimson;
+}
+.subbutton2:hover span 
+{
+    color: crimson;
+}
+.button2:hover
+{
+    border-color: crimson;
+}
+/* slider2 */
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+   
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+.button5
+{
+   padding: 10px 30px; 
+   background-color: black;
+   color: #fff;
+}
+.button5:hover
+{
+    background-color: crimson;
+    border:1px solid crimson;
+}
+
+
+.price
+{
+    background-image: url('images/shopi1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.flex 
+{
+    color: #fff;
+    font-size: 23px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.shopicon
+{
+    color: crimson; 
+}
+.price:hover span
+{
+    color: crimson;
+}
+
+.price1
+{
+    background-image: url('images/shopi2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.price1:hover span
+{
+    color: crimson;
+}
+.price2
+{
+    background-image: url('images/shopi3.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.price2:hover span
+{
+    color: crimson;
+}
+.price3
+{
+    background-image: url('images/shopi4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+.price3:hover span
+{
+    color: crimson;
+}
+
+.button6
+{
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+}
+/* slider3 */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide .chesse {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .chesse:hover 
+  {
+    position: relative;
+    top: 80%;
+    border-bottom: 6px solid crimson;
+  }
+  .chesse:hover .same1
+  {
+    background-color: crimson;
+  }
+  /* footer */
+  .listsubmenu
+  {
+    list-style: none;
+  }
+  .listsubmenu a
+  {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 2.5;
+  }
+  .listsubmenu a:hover
+  {
+    color: crimson;
+  }
+  .button7
+  {
+    padding: 10px 50px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 29px;
+  }
+  .button7 i
+  {
+    font-size: 22px;
+    padding-right: 10px;
+    color: #fff;
+  }
+  .button7 span
+  {
+    font-size: 18px;
+    padding-right: 10px;
+    color: #fff;
+  }
+  .button7:hover 
+  {
+    color: #eee;
+  }
+  .div3
+  {
+    color:#959899;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 2em;
+    margin-left: 27px;
+  }
+  /* icons */
+  .iconul li
+  {
+    list-style: none;
+    padding: 0px 3px 0px 0px;
+    
+  }
+  .iconmenu
+  {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #eee;
+  }
+  .iconmenu i
+  {
+    font-size: 18px;
+  }
+  .iconul li:hover .iconmenu
+  {
+    color: crimson;
+  }
+  /* footer2 */
+  .footer2
+  {
+    background-color: #000;
+  }
+  .pogo
+  {
+    color: #fff;
+  }
+  .white1
+  {
+    font-size: 25px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+  }
+  .submit
+  {
+    height: 50px;
+    width: 90%;
+    /* background-color: #313639; */
+    background-color: aqua;
+    color: #fff;
+  
+    position: relative;
+  }
+  .submit1
+  {
+    height: 60px;
+    width: 90%;
+    background-color: #313639;
+    color: #fff;
+
+  }
+  .submit span
+  {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .submit i
+  {
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    font-size: 18px;
+    color: #fff;
+  }
+  .line
+  {
+    border: 1px solid #eee;
+  }
+  .paragraph
+  {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  
+
+
